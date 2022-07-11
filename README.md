@@ -90,6 +90,10 @@ Same for `minWidth` `maxHeight`
 #### - `expanded()` make widget expanded.
 #### - `scrollable()` make widget scrollable.
 #### - `right()`, `left()`, `bottom()`, `top()` align your Widget.
+#### - `decoration` decorate container
+```bash
+  Text("hi").p(10).decorate(color: Colors.white,borderRadius:10,boxShape: BoxShape.rectangle).center().expanded()
+```
 #### - `p()` add padding to widget.
 ```bash
   Container().p(15)
