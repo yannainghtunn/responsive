@@ -11,7 +11,10 @@
 migrate_working_dir/
 build/
 android/
+windows/
+linux/
 ios/
+test/
 web/
 macos/
 .dart_tool/
