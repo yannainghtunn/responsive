@@ -20,7 +20,9 @@ This library help you to write flutter in very fast manner.
 add library in pubspec.yaml.
 ```bash
   ynh_flutter:
-    path: https://github.com/yannainghtunn/ynh_flutter.git
+    git:
+      url: https://github.com/yannainghtunn/ynh_flutter
+      ref: main
 ```
 
 ### For Responsive
